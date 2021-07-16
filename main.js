@@ -1,9 +1,5 @@
 var CHA = (function () {
 
-    function helloWorld() {
-        console.log("Hello World!");
-    }
-
     function matrixSingleAnswer()
     {
         // Global Variables: These are constant
