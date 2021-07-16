@@ -4,4 +4,8 @@ var writeHello = (function () {
         console.log("Hello World!");
     }
 
-}(writeHello));
+    function goodbyeWorld() {
+        console.log("Goodbye World!");
+    }
+
+}());
