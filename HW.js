@@ -1,4 +1,4 @@
-(function () {
+var CHA = (function () {
 
     function helloWorld() {
         console.log("Hello World!");
