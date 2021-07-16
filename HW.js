@@ -4,4 +4,4 @@ var HW = (function () {
         console.log("Hello World!");
     }
 
-}());
+}(HW));
