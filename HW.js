@@ -1,21 +1,11 @@
-//var writeHello = (function () {
+var CHA = (function () {
 
-//    function helloWorld() {
-//        console.log("Hello World!");
-//    }
+    function helloWorld() {
+        console.log("Hello World!");
+    }
 
-//    function goodbyeWorld() {
-//        console.log("Goodbye World!");
-//    }
+    function goodbyeWorld() {
+        console.log("Goodbye World!");
+    }
 
-//}());
-
-
-
-function helloWorld() {
-    console.log("Hello World!");
-};
-
-function goodbyeWorld() {
-    console.log("Goodbye World!");
-};
+}());
