@@ -1,4 +1,7 @@
 var CHA = {
+    LogMessage: console.log("CHA Message Called"),
+    LogAlert: "CHA Alert Called",
+
     IsAnswered: function () {
         console.log("What's this in HW?: " + this);
         if (this.getSelectedChoices().length !== 0) {
@@ -9,9 +12,9 @@ var CHA = {
             console.log("Setting answer . . . .");
         };
     }
+
 };
 
-CHA.IsAnswered();
 
 
 
