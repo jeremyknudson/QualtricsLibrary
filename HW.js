@@ -1,5 +1,6 @@
 var CHA = {
     IsAnswered: function () {
+        console.log("What's this in HW?: " + this);
         if (this.getSelectedChoices().length !== 0) {
             console.log("Already answered");
             return;
@@ -9,6 +10,8 @@ var CHA = {
         };
     }
 };
+
+CHA.IsAnswered();
 
 
 
