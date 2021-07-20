@@ -1,5 +1,10 @@
 var CHA = {
-    LogMessage: "CHA Alert Called",
+    LogMessage: "CHA Console Message Called",
+
+    helloWorld: function () {
+        console.log("Hello World!");
+    },
+
 
     IsAnswered: function () {
         console.log("What's this in HW?: " + this);
