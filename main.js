@@ -40,7 +40,6 @@ var CHA = (function () {
 
         // Handle Embedded Data
         previousAnswers.forEach(function () {
-            console.log(questionNumber);
             embeddedData = Qualtrics.SurveyEngine.getEmbeddedData(questionNumber);
 
             if (embeddedData !== null) {
